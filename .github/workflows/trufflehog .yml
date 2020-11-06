@@ -3,9 +3,6 @@ name: test
 on: push
 
 jobs:
-  test2:
-    runs-on: ubuntu-latest
-    name: test3
    steps:
 - uses: actions/checkout@master
 - name: trufflehog-actions-scan
